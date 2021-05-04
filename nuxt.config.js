@@ -43,7 +43,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  router: {
-    base: '/miwa-tanaka.github.io/'
-  },
+  // router: {
+  //   base: '/miwa-tanaka.github.io/'
+  // },
 }
