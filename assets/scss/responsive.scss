@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+}
+@media (max-width: 1200px) {
+  .column {
+    float: left;
+    width: 100%;
+  }
+  .backTopLeft, .backTopRight, .backBottomLeft, .backBottomRight{
+    height: 60vh;
+  }
+  .profileImg {
+    width: 40%;
+  }
+  .contain {
+    top: 30%;
+  }
+  ul {
+    margin-top: 100px;
+  }
+  h3 {
+    margin-top: 80px;
+  }
+}
