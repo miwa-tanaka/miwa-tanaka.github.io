@@ -14,4 +14,14 @@ h2 {
   position: absolute;
   margin-top: 15px;
 }
+@media (max-width: 375px) {
+  h2 {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+}
 </style>
