@@ -1,6 +1,4 @@
-@media (min-width: 1200px) {
-}
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .column {
     float: left;
     width: 100%;
@@ -8,32 +6,38 @@
   .backTopLeft, .backBottomRight{
     height: 60vh;
   }
-  .backTopRight, .backBottomLeft {
+  .backTopRight {
     height: 45vh;
   }
+  .backBottomLeft {
+    height: 30vh;
+  }
   .profileImg {
-    width: 40%;
+    width: 70%;
   }
   .contain {
-    top: 25%;
     width: 85%;
   }
   ul {
-    margin-top: 80px;
+    margin-top: 40px;
   }
   h3 {
     margin-top: 40px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 599px) {
+  .column {
+    float: left;
+    width: 100%;
+  }
   .profileImg {
-    width: 75%;
+    width: 60%;
   }
   .backTopLeft, .backBottomRight{
     height: 45vh;
   }
   .backTopRight {
-    height: 65vh;
+    height: 40vh;
   }
   .backBottomLeft {
     height: 25vh;
@@ -59,5 +63,10 @@
   .icons {
     width: 25px;
     margin-right: 10px;
+  }
+}
+@media (max-width: 598px) {
+  .profileImg {
+    width: 70%;
   }
 }
