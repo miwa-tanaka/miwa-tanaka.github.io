@@ -25,6 +25,22 @@
     margin-top: 40px;
   }
 }
+@media (max-width: 1024px) {
+  .profileImg {
+    width: 55%;
+  }
+  .backTopRight {
+    height: 50vh;
+  }
+  .contain {
+    top: 20%;
+    width: 85%;
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px;
+  }
+}
 @media (max-width: 599px) {
   .column {
     float: left;
@@ -65,8 +81,30 @@
     margin-right: 10px;
   }
 }
-@media (max-width: 598px) {
+@media (max-width: 599px) {
   .profileImg {
-    width: 70%;
+    width: 65%;
+  }
+  .backTopRight {
+    height: 60vh;
+  }
+}
+@media (max-width: 375px) {
+  .profileImg {
+    width: 60%;
+  }
+  .backTopRight {
+    height: 60vh;
+  }
+  .backBottomLeft{
+    height: 30vh;
+  }
+  .contain {
+    top: 20%;
+    width: 85%;
+    font-size: 10px;
+  }
+  a {
+    font-size: 10px;
   }
 }
