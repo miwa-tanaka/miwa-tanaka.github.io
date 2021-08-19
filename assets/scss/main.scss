@@ -7,20 +7,29 @@
   width: 50%;
 }
 .backTopLeft {
-  background-color: #F2EAE2;
+  background-color: #fff;
   /* width: 50%; */
-  height: 80vh;
+  height: 100vh;
   /* display: inline-block; */
   position: relative;
   background-size: cover;
 }
 .backTopRight {
-  background-color: #C3AA92;
+  background: url("../img/miwa-profile.jpg");
+  // background-color: #C3AA92;
+  // background-repeat:  no-repeat;
+  // opacity: 0.4;
+  // background: rgba(255,255,255,0.5);
   width: 50%;
-  height: 80vh;
+  height: 100vh;
   /* display: inline-block; */
+  background-position: right center;
   position: relative;
   background-size: cover;
+}
+.bg-mask {
+  height: 100vh;
+  background: rgba(255,255,255,0.5);
 }
 .backBottomLeft {
   background-color: #DFCEBE;
@@ -36,15 +45,17 @@
   /* display: inline-block; */
   position: relative;
 }
-.profileImg {
-  width: 65%;
-  display: flex;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+.profile_img {
+  width: 60%;
+  // display: flex;
+  top: 50%;
+  // right: 0;
+  // bottom: 0;
+  left: 50%;
+  // margin: auto;
   position: absolute;
+  transform: translate(-50%, -50%);
+  // z-index: 3;
 }
 .contain {
   width: 80%;
@@ -54,6 +65,22 @@
   left: 0;
   margin: auto;
   position: absolute;
+}
+.about {
+  // top: 50%;
+  // left: 50%;
+  // top: 0;
+  // right: 0;
+  // bottom: 0;
+  // left: 0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  // width:100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  // font-weight: 600;
 }
 h3 {
   margin-top: 100px;

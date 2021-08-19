@@ -7,8 +7,8 @@
 </template>
 <style scoped lang="scss">
 h2 {
-  color: #fff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
   font-family: "Kozuka Mincho Pr6N";
   left: 45%;
   position: absolute;
