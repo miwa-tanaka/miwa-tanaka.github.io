@@ -21,6 +21,9 @@
   h1 {
     color: $black;
     font-size: 26px;
+    &::selection {
+      background: $blue-grey;
+    }
   }
 }
 
@@ -69,6 +72,10 @@
         @media screen and (max-width: 375px) {
           font-size: 22px;
         }
+
+        &::selection {
+          background: $blue-grey;
+        }
       }
 
       h3 {
@@ -84,6 +91,10 @@
         @media screen and (max-width: 375px) {
           font-size: 18px;
         }
+
+        &::selection {
+          background: $blue-grey;
+        }
       }
 
       p {
@@ -94,6 +105,10 @@
 
         @media screen and (max-width: 750px) {
           font-size: 16px;
+        }
+
+        &::selection {
+          background: $blue-grey;
         }
       }
     }
@@ -140,6 +155,10 @@
     font-size: 20px;
     text-align: center;
     padding: 20px 0;
+
+    &::selection {
+      background: #fff;
+    }
   }
 
   &-links {
@@ -198,6 +217,10 @@
     font-size: 20px;
     text-align: center;
     padding: 20px 0;
+
+    &::selection {
+      background: $blue-grey;
+    }
   }
 
   &-list {
