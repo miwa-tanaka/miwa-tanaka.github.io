@@ -1,47 +1,66 @@
 <template>
-  <div class="container">
-     <div class="column backTopLeft">
-      <div class="about">
-        <h1>Hello, I'm Miwa Tanaka.</h1>
-        <h2>I'm a front-end engineer in Japan.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu rutrum justo. Sed posuere pretium nunc, id pulvinar tortor fringilla eu. Mauris fermentum, leo ornare mollis porttitor, nunc mi malesuada neque, eget pellentesque dui nibh vitae lacus. Praesent feugiat aliquet massa, in congue dui efficitur blandit. Suspendisse varius, elit eu pellentesque vehicula, eros tellus luctus nisl, non vulputate felis nulla in arcu. Sed est felis,</p>
+  <main class="container">
+    <section class="name-wrapper">
+      <h1>Miwa Tanaka</h1>
+    </section>
+    <section class="top-wrapper">
+      <div class="top-msg">
+        <div class="top-msg-container">
+          <h2>Hello, I'm Miwa.</h2>
+          <h3>I'm a frontend engineer in Japan.</h3>
+          <p>
+            I am a self-taught Software Engineer. Currently, I am a frontend engineer at ReNK CHANNEL Co, Ltd. in Japan, soaking up as much knowledge and practice as I can.
+            I have 2 years of experience using JavaScript(Vue and React), HTML, and CSS(Sass).
+            In addition to software development, I am passionate about my creative side.
+            I use Figma, AdobeXD, Photoshop, and Illustrator to design and build websites and web applications.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="column backTopRight">
-      <div class="bg-mask">
-        <img src="../assets/img/miwa-profile.jpg" class="profile_img">
+      <div class="top-img">
+        <div class="top-img-bg">
+          <div class="bg-mask">
+            <img src="../assets/img/miwa-profile.jpg" alt="Miwa Tanaka">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="column works_bg">
-      <h2 class="titles">Works</h2>
-      <div class="works_sqr">Coming Soon...</div>
-      <div class="works_sqr">Coming Soon...</div>
-      <div class="works_sqr">Coming Soon...</div>
-      <div class="works_sqr">Coming Soon...</div>
-    </div>
-    <div class="column contact_bg">
-      <h2 class="titles">Contact Me</h2>
-      <ul>
+    </section>
+    <section class="works-wrapper">
+      <h4 class="works-ttl">Works</h4>
+      <div class="works-links">
+        <div class="link">
+          <a href="https://miwa-tanaka.github.io/clock-app/">
+            <img src="../assets/img/clock.jpg" alt="clock app">
+          </a>
+          <a href="https://miwa-tanaka.github.io/clock-app/">Clock page</a>
+        </div>
+        <div class="link">
+          <a href="https://miwa-tanaka.github.io/fylo-lp/">
+            <img src="../assets/img/fylo.jpg" alt="clock app">
+          </a>
+          <a href="https://miwa-tanaka.github.io/fylo-lp/">Fylo dark theme landing page</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact-wrapper">
+      <h4 class="contact-ttl">Contact Me</h4>
+      <ul class="contact-list">
         <li>
-          <a href="https://github.com/miwa-tanaka" target="_blank">
-              <img src="../assets/img/github.gif" class="icons">
+          <a href="https://github.com/miwa-tanaka" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/img/github.png" class="icons">
               https://github.com/miwa-tanaka
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/miwa-tanaka/" target="_blank">
-              <img src="../assets/img/linkedin.gif" class="icons">
+          <a href="https://www.linkedin.com/in/miwa-tanaka/" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/img/linkedin.png" class="icons">
               https://www.linkedin.com/in/miwa-tanaka/
           </a>
         </li>
       </ul>
-    </div>
-  </div>
+    </section>
+  </main>
 </template>
 
 <script>
 export default {}
 </script>
-
-<style lang="scss">
-</style>

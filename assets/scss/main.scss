@@ -1,154 +1,239 @@
+@import "./_variables";
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Kozuka Mincho Pr6N", sans-serif;
 }
-.column {
-  float: left;
-  width: 50%;
-}
-.backTopLeft {
-  background-color: #fff;
-  /* width: 50%; */
-  height: 100vh;
-  /* display: inline-block; */
-  position: relative;
-  background-size: cover;
-}
-.backTopRight {
-  background: url("../img/miwa-profile.jpg");
-  // background-color: #C3AA92;
-  // background-repeat:  no-repeat;
-  // opacity: 0.4;
-  // background: rgba(255,255,255,0.5);
-  width: 50%;
-  height: 100vh;
-  /* display: inline-block; */
-  background-position: right center;
-  position: relative;
-  background-size: cover;
-}
-.bg-mask {
-  height: 100vh;
-  background: rgba(255,255,255,0.5);
-}
-.works_bg {
-  width: 100%;
-  background: #ECECEC;
+
+.container {
   position: relative;
 }
-.works_sqr {
-  background-color: #C4C4C4;
-  // margin: 20px;
-  margin: 50px 20px;
-  float: left;
-  width: 22%;
-  height: 250px;
-}
-.contact_bg {
-  width: 100%;
-  background: #fff;
-  position: relative;
-}
-.backBottomLeft {
-  background-color: #DFCEBE;
-  width: 50%;
-  height: 80vh;
-  /* display: inline-block; */
-  position: relative;
-}
-.backBottomRight {
-  background-color: #F2EAE2;
-  width: 50%;
-  height: 80vh;
-  /* display: inline-block; */
-  position: relative;
-}
-.profile_img {
-  width: 60%;
-  // display: flex;
-  top: 50%;
-  // right: 0;
-  // bottom: 0;
-  left: 50%;
-  // margin: auto;
+
+.name-wrapper {
   position: absolute;
-  transform: translate(-50%, -50%);
-  // z-index: 3;
-}
-.titles {
+  top: 0;
+  z-index: 2;
   text-align: center;
-  font-weight: 700;
-  padding-top: 30px;
-}
-.contain {
-  width: 80%;
-  display: flex;
-  top: 20%;
-  right: 0;
-  left: 0;
-  margin: auto;
-  position: absolute;
-}
-.about {
-  // top: 50%;
-  // left: 50%;
-  // top: 0;
-  // right: 0;
-  // bottom: 0;
-  // left: 0;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  // width:100%;
-  text-align: center;
-  font-family: "Kozuka Mincho Pr6N", sans-serif;
-  // font-weight: 600;
-}
-.about p {
-  margin-top: 30px;
-}
-h3 {
-  margin-top: 100px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  color: #fff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-p {
-  font-family: 'Montserrat', sans-serif;
-  color: #434343;
-  line-height: 1.7em;
-}
-a {
-  text-decoration: none;
-  // font-family: 'Montserrat', sans-serif;
-  color: #000;
-  font-weight: bold;
-  font-size: 16px;
-  &:hover {
-    color: #AEB3B2;
-    transition: all 200ms ease;
+  width: 100%;
+  margin: 0 auto;
+
+  h1 {
+    color: $black;
+    font-size: 26px;
   }
 }
-.icons {
-  width: 30px;
-  vertical-align: middle;
-  margin-right: 20px;
+
+.top {
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+
+    @media screen and (max-width: 1000px) {
+      height: 70vh;
+    }
+
+    @media screen and (max-width: 750px) {
+      height: 80vh;
+    }
+
+    @media screen and (max-width: 375px) {
+      height: 100vh;
+    }
+  }
+
+  &-msg {
+    position: relative;
+    width: 100%;
+
+    &-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      @media screen and (max-width: 1000px) {
+        width: 80%;
+      }
+
+      h2 {
+        color: $font;
+        font-size: 30px;
+
+        @media screen and (max-width: 750px) {
+          font-size: 28px;
+        }
+
+        @media screen and (max-width: 375px) {
+          font-size: 22px;
+        }
+      }
+
+      h3 {
+        color: $font;
+        font-size: 24px;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 750px) {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 375px) {
+          font-size: 18px;
+        }
+      }
+
+      p {
+        color: $font;
+        font-size: 18px;
+        font-family: $montserrat;
+        line-height: 1.7em;
+
+        @media screen and (max-width: 750px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  &-img {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
+
+    &-bg {
+      background-position: right center;
+      height: 100vh;
+      background: url("../img/miwa-profile.jpg");
+      background-size: cover;
+
+      img {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .bg-mask {
+      height: 100vh;
+      background: rgba(255,255,255,0.5);
+    }
+  }
 }
-.ul-align-center {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+
+.works {
+  &-wrapper {
+    background-color: $blue-grey;
+    padding-bottom: 20px;
+  }
+
+  &-ttl {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  &-links {
+    display: flex;
+    justify-content: space-around;
+
+    @media screen and (max-width: 750px) {
+      flex-direction: column;
+    }
+
+    .link {
+      width: 40%;
+      max-width: 500px;
+      text-align: center;
+
+      @media screen and (max-width: 750px) {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+
+      img {
+        width: 100%;
+        transition: 0.3s;
+
+        &:hover {
+          opacity: 0.5;
+          transition: 0.3s;
+        }
+      }
+
+      a {
+        font-size: 18px;
+        color: $font;
+        text-decoration: none;
+
+        @media screen and (max-width: 375px) {
+          font-size: 16px;
+        }
+
+        &:hover {
+          cursor: pointer;
+          color: $grey;
+        }
+      }
+    }
+  }
 }
-ul {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 50px;
-  list-style-type: none;
-}
-li {
-  margin-bottom: 20px;
+
+.contact {
+  &-wrapper {
+    padding-bottom: 20px;
+  }
+
+  &-ttl {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  &-list {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    list-style-type: none;
+
+    li {
+      margin-bottom: 20px;
+
+      a {
+        text-decoration: none;
+        color: $font;
+        font-size: 18px;
+
+        @media screen and (max-width: 375px) {
+          font-size: 16px;
+        }
+
+        &:hover {
+          cursor: pointer;
+          color: $grey;
+        }
+      }
+
+      img {
+        width: 30px;
+        vertical-align: middle;
+        margin-right: 20px;
+
+        @media screen and (max-width: 375px) {
+          margin-right: 10px;
+          width: 22px;
+        }
+      }
+    }
+  }
 }
