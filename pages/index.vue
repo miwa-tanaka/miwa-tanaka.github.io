@@ -97,5 +97,5 @@
 </template>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Castoro&family=Sawarabi+Mincho&display=swap');
 </style>
