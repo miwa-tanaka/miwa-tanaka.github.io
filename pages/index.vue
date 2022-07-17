@@ -19,9 +19,9 @@
       </section>
       <section class="aboutWrapper">
         <div class="aboutContents">
-          <h3>I'm a Software Engineer in Japan.</h3>
+          <h3>I'm a Software Engineer based in Japan.</h3>
           <p>
-            I am a self-taught Software Engineer. Currently, I am a frontend engineer at ReNK CHANNEL Co, Ltd. in Japan, soaking up as much knowledge and practice as I can.
+            I am a self-taught Software Engineer. Currently, I am a frontend engineer at ReNK CHANNEL Co, Ltd. in Japan, soaking up as much knowledge and experience as I can.
             I have 2 years of experience using JavaScript(Vue and React), HTML, and CSS(Sass).
             In addition to software development, I am passionate about my creative side.
             I use Figma, AdobeXD, Photoshop, and Illustrator to design and build websites and web applications.
