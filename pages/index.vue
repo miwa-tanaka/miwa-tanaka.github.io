@@ -41,15 +41,15 @@
               <img src="../assets/img/audiophile.jpg" alt="audiophile" loading="lazy" width="600" height="300">
             </a>
             <a href="https://miwa-tanaka.github.io/audiophile/" target="_blank" rel="noopener noreferrer">
-              audiophile eCommerce website
+              audiophile eCommerce website using Gatsby
             </a>
           </div>
           <div class="link">
-            <a href="https://miwa-tanaka.github.io/fylo-lp/" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/img/fylo.jpg" alt="fylo" loading="lazy" width="600" height="300">
+            <a href="https://miwa-tanaka.github.io/the-planets/" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/img/theplanets.jpg" alt="clock app" loading="lazy" width="600" height="300">
             </a>
-            <a href="https://miwa-tanaka.github.io/fylo-lp/" target="_blank" rel="noopener noreferrer">
-              Fylo dark theme landing page
+            <a href="https://miwa-tanaka.github.io/the-planets/" target="_blank" rel="noopener noreferrer">
+              Planets' fact site using Gatsby and GraphQL
             </a>
           </div>
           <div class="link">
@@ -57,7 +57,15 @@
               <img src="../assets/img/clock.jpg" alt="clock app" loading="lazy" width="600" height="300">
             </a>
             <a href="https://miwa-tanaka.github.io/clock-app/" target="_blank" rel="noopener noreferrer">
-              Clock
+              Clock using Nuxt.js
+            </a>
+          </div>
+          <div class="link">
+            <a href="https://miwa-tanaka.github.io/fylo-lp/" target="_blank" rel="noopener noreferrer">
+              <img src="../assets/img/fylo.jpg" alt="fylo" loading="lazy" width="600" height="300">
+            </a>
+            <a href="https://miwa-tanaka.github.io/fylo-lp/" target="_blank" rel="noopener noreferrer">
+              Fylo dark theme landing page using vanilla JavaScript
             </a>
           </div>
           <div class="link">
@@ -65,7 +73,7 @@
               <img src="../assets/img/pomodoro.jpg" alt="pomodoro timer" loading="lazy" width="600" height="300">
             </a>
             <a href="https://miwa-tanaka.github.io/pomodoro/" target="_blank" rel="noopener noreferrer">
-              Pomodoro timer
+              Pomodoro timer using React
             </a>
           </div>
         </div>
