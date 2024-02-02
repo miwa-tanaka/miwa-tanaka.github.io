@@ -1,0 +1,81 @@
+{
+  "works": [
+    {
+      "id": 0,
+      "name": "My portfolio page",
+      "overview": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "link": "https://miwa-tanaka.com/",
+      "repository": "",
+      "image": "/img/audiophile.jpg",
+      "front": "Next.js, TypeScript",
+      "hosting": "AWS (S3, Route53, CloudFront)",
+      "design": "by me",
+      "challenges": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": 1,
+      "name": "audiophile eCommerce website",
+      "overview": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "link": "https://miwa-tanaka.github.io/audiophile/",
+      "repository": "https://github.com/miwa-tanaka/audiophile",
+      "image": "/img/audiophile.jpg",
+      "front": "Gatsby",
+      "hosting": "Github pages",
+      "design": "by Frontend Mentor",
+      "designLink": "https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx",
+      "challenges": "aaaaa"
+    },
+    {
+      "id": 2,
+      "name": "Planets' fact site",
+      "overview": "aaaaa",
+      "link": "https://miwa-tanaka.github.io/the-planets/",
+      "repository": "https://github.com/miwa-tanaka/the-planets/",
+      "image": "/img/theplanets.jpg",
+      "front": "Gatsby, GraphQL",
+      "hosting": "Github pages",
+      "design": "by Frontend Mentor",
+      "designLink": "https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f",
+      "challenges": "aaaaa"
+    },
+    {
+      "id": 3,
+      "name": "Clock",
+      "overview": "aaaaa",
+      "link": "https://miwa-tanaka.github.io/clock-app/",
+      "repository": "https://github.com/miwa-tanaka/clock-app/",
+      "image": "/img/clock.jpg",
+      "front": "Nuxt.js",
+      "hosting": "Github pages",
+      "design": "by Frontend Mentor",
+      "designLink": "https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM",
+      "challenges": "aaaaa"
+    },
+    {
+      "id": 4,
+      "name": "Fylo dark theme landing page",
+      "overview": "aaaaa",
+      "link": "https://miwa-tanaka.github.io/fylo-lp/",
+      "repository": "https://github.com/miwa-tanaka/fylo-lp/",
+      "image": "/img/fylo.jpg",
+      "front": "HTML, CSS, JavaScript",
+      "hosting": "Github pages",
+      "design": "by Frontend Mentor",
+      "designLink": "https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd",
+      "challenges": "aaaaa"
+    },
+    {
+      "id": 5,
+      "name": "Pomodoro timer",
+      "overview": "aaaaa",
+      "link": "https://miwa-tanaka.github.io/pomodoro/",
+      "repository": "https://github.com/miwa-tanaka/pomodoro",
+      "image": "/img/pomodoro.jpg",
+      "front": "React",
+      "hosting": "Github pages",
+      "design": "by Frontend Mentor",
+      "designLink": "https://www.frontendmentor.io/challenges/pomodoro-app-KBFnycJ6G",
+      "challenges": "aaaaa"
+    }
+  ]
+}
