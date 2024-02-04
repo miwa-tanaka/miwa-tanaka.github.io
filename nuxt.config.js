@@ -14,11 +14,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Welcome to Miwa's Work page" },
+      { hid: 'description', name: 'description', content: "Welcome to my portfolio site, a digital showcase of my journey and accomplishments as a software developer and designer." },
       { hid: 'og:site_name', property: 'og:site_name', content: "Miwa's Work" },
       { hid: 'og:url', property: 'og:url', content: 'https://miwa-tanaka.github.io/' },
       { hid: 'og:title', property: 'og:title', content: "Miwa's Work" },
-      { hid: 'og:description', property: 'og:description', content: "Welcome to Miwa's Work page" },
+      { hid: 'og:description', property: 'og:description', content: "Welcome to my portfolio site, a digital showcase of my journey and accomplishments as a software developer and designer." },
       { hid: 'og:image', property: 'og:image', content: 'https://miwa-tanaka.github.io/img/miwa-ogp.png' },
       { hid: 'theme-color', property: 'theme-color', content: '#3A4A2F' }
     ],
