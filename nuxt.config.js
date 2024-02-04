@@ -7,15 +7,22 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Miwa Tanaka Portfolio',
+    title: "Miwa's Work",
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: "Welcome to Miwa's Work page" },
+      { hid: 'og:site_name', property: 'og:site_name', content: "Miwa's Work" },
+      { hid: 'og:url', property: 'og:url', content: 'https://miwa-tanaka.github.io/' },
+      { hid: 'og:title', property: 'og:title', content: "Miwa's Work" },
+      { hid: 'og:description', property: 'og:description', content: "Welcome to Miwa's Work page" },
+      { hid: 'og:image', property: 'og:image', content: 'https://miwa-tanaka.github.io/img/miwa-ogp.png' },
+      { hid: 'theme-color', property: 'theme-color', content: '#3A4A2F' }
     ],
+
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/miwa-favicon.ico' }
     ]
