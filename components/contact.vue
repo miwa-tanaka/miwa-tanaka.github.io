@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Get In Touch</h4>
+    <h2>Get In Touch</h2>
     <ul class="contactList">
       <li>
         <a href="https://github.com/miwa-tanaka" target="_blank" rel="noopener noreferrer">

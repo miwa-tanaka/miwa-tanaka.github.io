@@ -1,5 +1,5 @@
 <template>
-  <p>&copy; Copyright 2024, Miwa Tanaka</p>
+  <p>&copy; Miwa Tanaka</p>
 </template>
 
 <style lang="scss">

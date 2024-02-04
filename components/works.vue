@@ -7,7 +7,7 @@
         </li>
         <li class="image">
           <a :href="work.link" target="_blank" rel="noopener noreferrer">
-            <img :src="work.image" loading="lazy" width="600" height="300" />
+            <img :src="work.image" loading="lazy" width="600" height="300" :alt="work.name" />
           </a>
         </li>
         <li class="details">
