@@ -6,7 +6,6 @@ h1 {
   white-space: nowrap;
   text-align: center;
   color: $green;
-  padding: 0 10px;
 
   &::selection {
     background: $green;
@@ -15,6 +14,10 @@ h1 {
 
   @media screen and (max-width: 768px) {
     font-size: min(max(50px, 9.5vw), 140px);
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: min(max(52px, 7.5vw), 90px);
   }
 
   @media screen and (max-width: 375px) {
