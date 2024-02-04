@@ -1,73 +1,72 @@
 @import "./_variables";
 
-h2 {
-  font-size: 32px;
-  text-align: center;
-  text-transform: uppercase;
+.ContactContents {
   background-color: $green;
   color: $yellow;
 
-  @media screen and (max-width: 375px) {
-    font-size: 28px;
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 375px) {
+      font-size: 28px;
+    }
+
+    &::selection {
+      background: $yellow;
+      color: $green;
+    }
   }
 
-  &::selection {
-    background: $yellow;
-    color: $green;
-  }
-}
+  .contactList {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
 
-.contactList {
-  background-color: $green;
-  color: $yellow;
-  display: flex;
-  justify-content: center;
-  padding: 60px 0;
-
-  @media screen and (max-width: 375px) {
-    padding: 40px 0;
-  }
-
-  li {
-    background-color: $green;
-    list-style: none;
-    padding-bottom: 3px;
-    margin-right: 5%;
-    position: relative;
-
-    @media screen and (max-width: 768px) {
-      margin-right: 20%;
+    @media screen and (max-width: 375px) {
+      padding: 40px 0;
     }
 
-    &:last-child {
-      margin-right: 0;
-    }
+    li {
+      list-style: none;
+      padding-bottom: 3px;
+      margin-right: 5%;
+      position: relative;
 
-    &::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 2px;
-      background-color: $yellow;
-      transition: width 0.3s ease-out;
-    }
+      @media screen and (max-width: 768px) {
+        margin-right: 20%;
+      }
 
-    &:hover::after {
-      width: 0%;
-    }
+      &:last-child {
+        margin-right: 0;
+      }
 
-    a {
-      display: block;
-      background-color: $green;
-      color: $yellow;
-      text-decoration: none;
-      font-size: 20px;
-      padding: 0 7px;
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $yellow;
+        transition: width 0.3s ease-out;
+      }
 
-      @media screen and (max-width: 375px) {
-        font-size: 18px;
+      &:hover::after {
+        width: 0%;
+      }
+
+      a {
+        display: block;
+        color: $yellow;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 0 7px;
+
+        @media screen and (max-width: 375px) {
+          font-size: 18px;
+        }
       }
     }
   }

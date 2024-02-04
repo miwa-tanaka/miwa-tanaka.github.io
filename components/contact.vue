@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="ContactContents">
     <h2>Get In Touch</h2>
     <ul class="contactList">
       <li>
