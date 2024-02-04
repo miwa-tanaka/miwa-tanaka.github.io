@@ -6,6 +6,7 @@ h1 {
   white-space: nowrap;
   text-align: center;
   color: $green;
+  padding: 0 10px;
 
   &::selection {
     background: $green;
