@@ -17,10 +17,6 @@ h1 {
   }
 
   @media screen and (max-width: 425px) {
-    font-size: min(max(52px, 7.5vw), 90px);
-  }
-
-  @media screen and (max-width: 375px) {
     font-size: min(max(42px, 7.5vw), 90px);
   }
 }
