@@ -10,7 +10,20 @@
 
   .worksItem {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
+    background-color: $yellow;
+    padding: 2% 4%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(58, 74, 47, 0.1);
+
+    @media screen and (max-width: 768px) {
+      max-width: 600px;
+      padding: 4%;
+    }
+
+    @media screen and (max-width: 425px) {
+      width: 95%;
+    }
   }
 
   li {
@@ -26,14 +39,14 @@
     text-decoration: none;
 
     &:hover {
-      color: $red;
+      color: $green;
     }
   }
 
   li, p, .techDetailsTitle  {
     &::selection {
-      background: $red;
-      color: $cream-white;
+      background: $green;
+      color: $yellow;
     }
   }
 
@@ -42,15 +55,15 @@
   }
 
   .name {
-    font-size: 20px;
+    font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
-    color: $red;
-    margin-bottom: 8px;
+    color: $green;
+    margin-bottom: 20px;
 
     &::selection {
-      background: $red;
-      color: $cream-white;
+      background: $green;
+      color: $yellow;
     }
   }
 
@@ -59,11 +72,11 @@
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: $red;
+    color: $green;
 
     &::selection {
-      background: $red;
-      color: $cream-white;
+      background: $green;
+      color: $yellow;
     }
   }
 
@@ -86,7 +99,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: $red;
+        background-color: $green;
         opacity: 0;
         transition: 0.3s;
         mix-blend-mode: multiply;

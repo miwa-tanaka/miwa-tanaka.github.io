@@ -3,16 +3,16 @@
 footer {
   text-align: center;
   padding-bottom: 1%;
-  background-color: $red;
+  background-color: $green;
 
   p {
-    background-color: $red;
-    color: $cream-white;
+    background-color: $green;
+    color: $yellow;
     font-size: 14px;
 
     &::selection {
-      background: $cream-white;
-      color: $red;
+      background: $yellow;
+      color: $green;
     }
   }
 }
