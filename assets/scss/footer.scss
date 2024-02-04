@@ -1,0 +1,18 @@
+@import "./_variables";
+
+footer {
+  text-align: center;
+  padding-bottom: 1%;
+  background-color: $red;
+
+  p {
+    background-color: $red;
+    color: $cream-white;
+    font-size: 14px;
+
+    &::selection {
+      background: $cream-white;
+      color: $red;
+    }
+  }
+}
