@@ -19,7 +19,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https://miwa-tanaka.github.io/' },
       { hid: 'og:title', property: 'og:title', content: "Miwa's Work" },
       { hid: 'og:description', property: 'og:description', content: "Welcome to my portfolio site, a digital showcase of my journey and accomplishments as a software developer and designer." },
-      { hid: 'og:image', property: 'og:image', content: '/miwa-ogp.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://miwa-tanaka.github.io/miwa-ogp.png' },
       { hid: 'theme-color', property: 'theme-color', content: '#3A4A2F' }
     ],
 
