@@ -86,5 +86,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~/assets/scss/works.scss';
+  @import '~/assets/scss/works.scss';
 </style>
