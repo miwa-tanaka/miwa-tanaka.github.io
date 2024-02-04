@@ -1,0 +1,23 @@
+@import "./_variables";
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: min(max(100px, 7.5vw), 240px);
+  white-space: nowrap;
+  text-align: center;
+  color: $red;
+  background-color: $cream-white;
+
+  &::selection {
+    background: $red;
+    color: $cream-white;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: min(max(50px, 9.5vw), 140px);
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: min(max(42px, 7.5vw), 90px);
+  }
+}
