@@ -1,0 +1,12 @@
+@import "variables";
+
+.footer {
+  padding-bottom: 0.75rem;
+  color: $yellow;
+  text-align: center;
+  background-color: $green;
+
+  small {
+    @include selection-style($green, $yellow);
+  }
+}
