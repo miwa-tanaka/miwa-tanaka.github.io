@@ -1,0 +1,24 @@
+@import "variables";
+
+.header {
+  padding: 2rem 0;
+  border-bottom: 1px solid $green;
+
+  h1 {
+    font-size: min(max(6.25rem, 7.5vw), 15rem);
+    font-weight: 700;
+    color: $green;
+    text-align: center;
+    white-space: nowrap;
+
+    @include selection-style($yellow, $green);
+
+    @media screen and (max-width: 768px) {
+      font-size: min(max(3.125rem, 9.5vw), 8.75rem);
+    }
+
+    @media screen and (max-width: 425px) {
+      font-size: min(max(2.625rem, 7.5vw), 5.625rem);
+    }
+  }
+}
