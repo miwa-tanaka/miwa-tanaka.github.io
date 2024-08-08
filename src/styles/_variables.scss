@@ -1,7 +1,11 @@
-// $black: #000;
 $black: #333;
 $white: #fff;
 $green: #3a4a2f;
 $yellow: #f6f7ef;
 
-// #161815
+@mixin selection-style($selection-color, $selection-background) {
+  &::selection {
+    color: $selection-color;
+    background: $selection-background;
+  }
+}
