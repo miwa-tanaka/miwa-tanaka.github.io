@@ -22,95 +22,89 @@ type WorksProps = {
 export function Works({ data }: WorksProps): JSX.Element {
   return (
     <section className={styles.worksWrapper}>
-      <ul className={styles.worksContents}>
+      <div className={styles.worksContents}>
         {data.map((v, k) => (
-          <li key={k} className={styles.worksItem}>
-            <ul>
-              <li>
-                <p className={styles.name}>{v.name}</p>
-              </li>
-              <li className={styles.image}>
-                <a href={v.link} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={v.image}
-                    loading="lazy"
-                    width="600"
-                    height="300"
-                    alt={v.name}
-                  />
-                </a>
-              </li>
-              <li className={styles.details}>
-                <span className={styles.title}>Overview:</span>
-                <p>{v.overview}</p>
-              </li>
-              <li className={styles.details}>
-                <ul className={styles.techDetails}>
-                  <span className={styles.title}>Technologies Used:</span>
-                  <li>
-                    <span className={styles.techDetailsTitle}>Frontend:</span>
-                    {v.front}
-                  </li>
-                  <li>
-                    <span className={styles.techDetailsTitle}>Hosting:</span>
-                    {v.hosting}
-                  </li>
-                  <li className={styles.alignCenter}>
-                    <span className={styles.techDetailsTitle}>Design:</span>
-                    {v.designLink ? (
-                      <a
-                        href={v.designLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.alignCenter}
-                      >
-                        {v.design}
-                        <NewTabIcon />
-                      </a>
-                    ) : (
-                      <span>{v.design}</span>
-                    )}
-                  </li>
-                </ul>
-              </li>
-              <li className={styles.details}>
-                <span className={styles.title}>
-                  Challenges and Problem Solving:
-                </span>
-                <p>{v.challenges}</p>
-              </li>
+          <div key={k} className={styles.worksItem}>
+            <div>
+              <p className={styles.name}>{v.name}</p>
+              <a
+                href={v.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.image}
+              >
+                <img
+                  src={v.image}
+                  loading="lazy"
+                  width="600"
+                  height="300"
+                  alt={v.name}
+                />
+              </a>
+              <p>
+                <span>Overview:</span>
+                <br />
+                {v.overview}
+              </p>
+              <p>
+                <span>Technologies Used:</span>
+              </p>
+              <ul className={styles.techDetails}>
+                <li>
+                  <span>Frontend:</span>
+                  {v.front}
+                </li>
+                <li>
+                  <span>Hosting:</span>
+                  {v.hosting}
+                </li>
+                <li className={styles.alignCenter}>
+                  <span>Design:</span>
+                  {v.designLink ? (
+                    <a
+                      href={v.designLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {v.design}
+                      <NewTabIcon />
+                    </a>
+                  ) : (
+                    <span>{v.design}</span>
+                  )}
+                </li>
+              </ul>
+              <p>
+                <span>Challenges and Problem Solving:</span>
+                <br />
+                {v.challenges}
+              </p>
               {v.repository && (
-                <li
-                  className={`
-                  ${styles.details} ${styles.alignCenter}
-                `}
-                >
-                  <span className={styles.title}>Repository:</span>
+                <p>
+                  <span>Repository:</span>
+                  <br />
                   <a
                     href={v.repository}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     {v.repository}
+                    <NewTabIcon />
                   </a>
-                  <NewTabIcon />
-                </li>
+                </p>
               )}
-              <li
-                className={`
-                  ${styles.details} ${styles.alignCenter}
-                `}
-              >
-                <span className={styles.title}>Link:</span>
+              <p>
+                <span>Link:</span>
+                <br />
                 <a href={v.link} target="_blank" rel="noopener noreferrer">
                   {v.link}
+                  <NewTabIcon />
                 </a>
-                <NewTabIcon />
-              </li>
-            </ul>
-          </li>
+              </p>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }
