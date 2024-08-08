@@ -9,5 +9,12 @@
   "stylelint.validate": ["css", "scss", "tsx", "postcss"],
   "scss.validate": false,
   "css.validate": false,
-  "cSpell.userWords": ["Miwa", "Tanaka", "theplanets", "Pomodoro", "Fylo"]
+  "cSpell.userWords": [
+    "Miwa",
+    "Tanaka",
+    "theplanets",
+    "Pomodoro",
+    "Fylo",
+    "msapplication"
+  ]
 }
