@@ -32,6 +32,7 @@ export function Works({ data }: WorksProps): JSX.Element {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.image}
+                aria-label={`Screenshot: ${v.name} (opens in a new tab)`}
               >
                 <img
                   src={v.image}
