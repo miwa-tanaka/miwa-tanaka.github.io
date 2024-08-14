@@ -1,4 +1,5 @@
 import styles from "@/styles/contact.module.scss";
+import NewTabIcon from "@/components/newTabIcon";
 
 type ContactProps = {};
 
@@ -25,6 +26,7 @@ export default function Contact({}: ContactProps): JSX.Element {
             rel="noopener noreferrer"
           >
             {contact.name}
+            <NewTabIcon />
           </a>
         ))}
       </div>

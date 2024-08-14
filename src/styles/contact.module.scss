@@ -30,6 +30,9 @@
 
     a {
       position: relative;
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
       font-size: 1.25rem;
       color: $yellow;
 
@@ -50,6 +53,10 @@
 
       &:hover::after {
         width: 0%;
+      }
+
+      svg {
+        fill: $yellow;
       }
     }
   }
