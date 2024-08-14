@@ -23,7 +23,7 @@
       border-radius: 5px;
       box-shadow: 0 4px 8px rgba(58, 74, 47, 0.1);
 
-      @media screen and (max-width: 768px) {
+      @media screen and (width <= 1400px) {
         max-width: 100%;
         padding: 4%;
       }
@@ -85,6 +85,7 @@
         }
 
         p {
+          max-width: 80ch;
           margin-top: 0;
           line-height: 1.6rem;
 
