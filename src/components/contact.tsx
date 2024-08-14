@@ -14,7 +14,7 @@ export default function Contact({}: ContactProps): JSX.Element {
   ];
 
   return (
-    <section className={styles.contactWrapper}>
+    <section className={styles.contactWrapper} aria-label="contact">
       <h2>Get In Touch</h2>
       <div className={styles.contactList}>
         {data.map((contact, index) => (
