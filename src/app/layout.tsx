@@ -10,20 +10,20 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Miwa's Work",
+  title: "Miwa's Projects",
   description:
-    "Welcome to my work page, a digital showcase of my journey and accomplishments as a software developer",
+    "Welcome to my project page, a digital showcase of my journey and accomplishments as a software developer",
   themeColor: "#3a4a2f",
   openGraph: {
     title: "Miwa's Work",
-    description: "Welcome to Miwa's Work Page",
+    description: "Welcome to Miwa's Projects Page",
     url: "https://miwa-tanaka.github.io/",
     images: [
       {
         url: "https://miwa-tanaka.github.io/miwa-ogp.png",
       },
     ],
-    siteName: "Miwa's Work",
+    siteName: "Miwa's Projects",
     type: "website",
   },
   twitter: {

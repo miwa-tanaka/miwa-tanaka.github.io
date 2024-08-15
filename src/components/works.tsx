@@ -21,17 +21,18 @@ type WorksProps = {
 
 export function Works({ data }: WorksProps): JSX.Element {
   return (
-    <section className={styles.worksWrapper}>
-      <div className={styles.worksContents}>
+    <section className={styles.worksWrapper} aria-label="projects">
+      <ul className={styles.worksContents}>
         {data.map((v, k) => (
-          <div key={k} className={styles.worksItem}>
+          <li key={k} className={styles.worksItem}>
             <div>
-              <p className={styles.name}>{v.name}</p>
+              <h2 className={styles.name}>{v.name}</h2>
               <a
                 href={v.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.image}
+                aria-label={`Screenshot: ${v.name} (opens in a new tab)`}
               >
                 <img
                   src={v.image}
@@ -41,48 +42,45 @@ export function Works({ data }: WorksProps): JSX.Element {
                   alt={v.name}
                 />
               </a>
-              <p>
-                <span>Overview:</span>
-                <br />
-                {v.overview}
-              </p>
-              <p>
-                <span>Technologies Used:</span>
-              </p>
-              <ul className={styles.techDetails}>
-                <li>
-                  <span>Frontend:</span>
-                  {v.front}
-                </li>
-                <li>
-                  <span>Hosting:</span>
-                  {v.hosting}
-                </li>
-                <li className={styles.alignCenter}>
-                  <span>Design:</span>
-                  {v.designLink ? (
-                    <a
-                      href={v.designLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {v.design}
-                      <NewTabIcon />
-                    </a>
-                  ) : (
-                    <span>{v.design}</span>
-                  )}
-                </li>
-              </ul>
-              <p>
-                <span>Challenges and Problem Solving:</span>
-                <br />
-                {v.challenges}
-              </p>
+              <div className={styles.section}>
+                <h3>Overview:</h3>
+                <p>{v.overview}</p>
+              </div>
+              <div className={styles.section}>
+                <h3>Technologies Used:</h3>
+                <ul className={styles.techDetails}>
+                  <li>
+                    <span>Frontend:</span>
+                    {v.front}
+                  </li>
+                  <li>
+                    <span>Hosting:</span>
+                    {v.hosting}
+                  </li>
+                  <li className={styles.alignCenter}>
+                    <span>Design:</span>
+                    {v.designLink ? (
+                      <a
+                        href={v.designLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {v.design}
+                        <NewTabIcon />
+                      </a>
+                    ) : (
+                      <>{v.design}</>
+                    )}
+                  </li>
+                </ul>
+              </div>
+              <div className={styles.section}>
+                <h3>Challenges and Problem Solving:</h3>
+                <p>{v.challenges}</p>
+              </div>
               {v.repository && (
-                <p>
-                  <span>Repository:</span>
-                  <br />
+                <div className={styles.section}>
+                  <h3>Repository:</h3>
                   <a
                     href={v.repository}
                     target="_blank"
@@ -91,20 +89,19 @@ export function Works({ data }: WorksProps): JSX.Element {
                     {v.repository}
                     <NewTabIcon />
                   </a>
-                </p>
+                </div>
               )}
-              <p>
-                <span>Link:</span>
-                <br />
+              <div className={styles.section}>
+                <h3>Link:</h3>
                 <a href={v.link} target="_blank" rel="noopener noreferrer">
                   {v.link}
                   <NewTabIcon />
                 </a>
-              </p>
+              </div>
             </div>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
