@@ -1,0 +1,71 @@
+[
+  {
+    "name": "My portfolio page",
+    "overview": "Welcome to my portfolio site, a digital showcase of my journey and accomplishments as a software developer and designer. This site is the culmination of my experiences, skills, and the projects that I’ve poured my passion into. More than just a showcase, it reflects my ongoing learning and growth in the tech industry. I’ve designed this platform to be simple, user-friendly, and aesthetically pleasing, with the aim of sharing my career and technical expertise. It’s meant to inspire new opportunities and meaningful connections.",
+    "link": "https://miwa-tanaka.com/",
+    "image": "/works/portfolio.jpg",
+    "front": "Next.js, TypeScript, Sass",
+    "hosting": "AWS (S3, Route53, CloudFront)",
+    "design": "by me",
+    "challenges": "Using AWS’s diverse services to deploy a secure and scalable website was a significant learning experience. I implemented security measures by utilizing IAM roles and policies to safeguard the site. For scalability, I set up CloudFront to efficiently deliver content across the globe, ensuring low latency and high uptime. Additionally, I prioritized accessibility, aiming to create a design that is user-friendly for everyone."
+  },
+  {
+    "name": "Contact form",
+    "overview": "This project is a practice contact form created with a focus on accessibility and internationalization (i18n). It is designed to be screen reader and keyboard accessible, ensuring that people with disabilities or elderly users can easily interact with the form. Additionally, it supports both English and Japanese, making it adaptable for a wide range of users. The form features a simple, user-friendly design, allowing anyone to intuitively navigate and use it.",
+    "link": "https://miwa-tanaka.github.io/contact-form/",
+    "repository": "https://github.com/miwa-tanaka/contact-form",
+    "image": "/works/a11y-contact-form.jpg",
+    "front": "Next.js, TypeScript, Sass",
+    "hosting": "Github pages",
+    "design": "by me",
+    "challenges": "In this project, I encountered several challenges related to accessibility. I repeatedly tested the form using keyboard navigation and screen readers to ensure smooth usability, making adjustments as necessary. Additionally, I carefully reviewed accessibility guidelines and checklists published by various companies to ensure alignment with best practices. Moreover, I paid close attention to color contrast and visibility in both dark and light themes, aiming to create a visually comfortable and universally user-friendly design."
+  },
+  {
+    "name": "audiophile eCommerce website",
+    "overview": "This project was inspired by a design challenge from Frontend Mentor, with the goal of creating an immersive, informative, and interactive experience for audiophiles. Using Gatsby, a React-based open-source framework, I developed a fast, SEO-optimized, and visually engaging site that highlights premium audio products, ranging from headphones to speakers.",
+    "link": "https://miwa-tanaka.github.io/audiophile/",
+    "repository": "https://github.com/miwa-tanaka/audiophile",
+    "image": "/works/audiophile.jpg",
+    "front": "Gatsby",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx",
+    "challenges": "Making the design from Frontend Mentor fully responsive was a key aspect of this project. I utilized CSS Flexbox to create layouts that adapt flexibly to different screen sizes, ensuring an optimal viewing experience from smartphones to desktops. This approach guarantees that users can enjoy a smooth and consistent design, no matter what device they use to access the site."
+  },
+  {
+    "name": "Planets' fact site",
+    "overview": "'The Planets is a web project inspired by a challenge from Frontend Mentor, aimed at providing an interactive and educational experience focused on the planets in our solar system. In this project, I maximized the use of design while applying my web development skills to build a user interface powered by dynamic data. Utilizing Gatsby’s efficient static site generation and seamless data management with GraphQL, the site delivers detailed insights into each planet, including their characteristics, history, and fascinating facts.",
+    "link": "https://miwa-tanaka.github.io/the-planets/",
+    "repository": "https://github.com/miwa-tanaka/the-planets/",
+    "image": "/works/theplanets.jpg",
+    "front": "Gatsby, GraphQL",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f",
+    "challenges": "Creating an interactive experience while making the most of Gatsby’s static site generation was a new challenge. By utilizing React’s state management and GraphQL, I built a dynamic UI that adapts based on user interactions. This approach allowed me to maintain the performance benefits of a static site while delivering an interface that responds seamlessly to user inputs. As a result, I was able to develop a website that offers both speed and flexibility for a smooth user experience."
+  },
+  {
+    "name": "Pomodoro timer",
+    "overview": "The “Pomodoro” project is a web-based application designed to boost productivity by utilizing the Pomodoro Technique, which breaks work into 25-minute intervals followed by short breaks. Based on a design from Frontend Mentor, the app offers users a simple, interactive timer to efficiently manage their work sessions and breaks. Built with React’s ecosystem, it features customizable timer settings, as well as options to adjust colors and fonts. The modern, responsive user interface is designed to ensure a seamless experience across all devices.",
+    "link": "https://miwa-tanaka.github.io/pomodoro/",
+    "repository": "https://github.com/miwa-tanaka/pomodoro",
+    "image": "/works/pomodoro.jpg",
+    "front": "React",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/pomodoro-app-KBFnycJ6G",
+    "challenges": "Implementing the core Pomodoro timer functionality with start, pause, and reset features, alongside handling custom user settings for different intervals, posed a significant challenge due to the need for precise state management. Solution: Utilized React's useState and useEffect hooks to manage timer states and intervals effectively. This approach enabled the creation of a reliable timer mechanism that updates the UI in real-time and allows users to customize the duration of work and break periods."
+  },
+  {
+    "name": "Fylo dark theme landing page",
+    "overview": "This project is a landing page for a fictional cloud storage service called “Fylo,” featuring a dark theme and a user-friendly interface. Built using HTML5, CSS3, and JavaScript, it combines responsive design and interactive elements to balance visual appeal and ease of use. The site has been deployed using GitHub Pages, making it easily accessible to anyone.",
+    "link": "https://miwa-tanaka.github.io/fylo-lp/",
+    "repository": "https://github.com/miwa-tanaka/fylo-lp/",
+    "image": "/works/fylo.jpg",
+    "front": "HTML, CSS, JavaScript",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd",
+    "challenges": "In this project, I faced challenges configuring it for GitHub Pages, but ultimately adjusted it to function correctly as a static site. Implementing interactive elements using vanilla JavaScript was particularly challenging, as it reminded me of the difficulty of achieving functionality with simple code, offering many valuable lessons. Overcoming the deployment and hosting issues while refining the setup for greater efficiency and maintainability was also a significant learning experience."
+  }
+]

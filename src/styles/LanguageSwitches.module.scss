@@ -1,0 +1,65 @@
+@import "variables";
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  margin: 2rem 0 1rem 0;
+
+  @media screen and (max-width: 375px) {
+    gap: 0.75rem;
+    padding: 0;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 7rem;
+    height: 40px;
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $green;
+    background-color: $yellow;
+    border: 1px solid $green;
+
+    &:first-child {
+      border-right: transparent;
+      border-radius: 100px 0 0 100px;
+    }
+
+    &:nth-child(2) {
+      border-radius: 0 100px 100px 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: $light-gray;
+    }
+
+    @media screen and (max-width: 375px) {
+      &:first-child,
+      &:nth-child(2) {
+        border: 1px solid $green;
+        border-radius: 100px;
+      }
+    }
+  }
+
+  .active {
+    color: $yellow;
+    background-color: $green;
+
+    &:hover {
+      background-color: $green;
+    }
+  }
+
+  .announcement {
+    position: absolute;
+    left: -9999px;
+  }
+}

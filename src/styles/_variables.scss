@@ -2,6 +2,7 @@ $black: #333;
 $white: #fff;
 $green: #3a4a2f;
 $yellow: #f6f7ef;
+$light-gray: #e0e4dc;
 
 @mixin selection-style($selection-color, $selection-background) {
   &::selection {
