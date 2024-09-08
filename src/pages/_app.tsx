@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("preferredLanguage");
@@ -31,10 +31,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     <div className={poppins.className}>
       <Head>
         <title>Miwa&#39;s Projects</title>
-        <meta
-          name="description"
-          content="Welcome to my project page, a digital showcase of my journey and accomplishments as a software developer"
-        />
+        <meta name="description" content="Miwa's Project page" />
         <link rel="icon" href="/favicons/favicon.ico" />
         <link
           rel="apple-touch-icon"
