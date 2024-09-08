@@ -1,8 +1,8 @@
 import styles from "@/styles/works.module.scss";
 import NewTabIcon from "@/components/newTabIcon";
+import { useTranslation } from "react-i18next";
 
-export type WorkType = {
-  id: number;
+export type ProjectType = {
   name: string;
   overview: string;
   link: string;
@@ -15,11 +15,13 @@ export type WorkType = {
   challenges: string;
 };
 
-type WorksProps = {
-  data: WorkType[];
+type ProjectProps = {
+  data: ProjectType[];
 };
 
-export function Works({ data }: WorksProps): JSX.Element {
+export function Projects({ data }: ProjectProps): JSX.Element {
+  const { t } = useTranslation("Common");
+
   return (
     <section className={styles.worksWrapper} aria-label="projects">
       <ul className={styles.worksContents}>
@@ -43,22 +45,22 @@ export function Works({ data }: WorksProps): JSX.Element {
                 />
               </a>
               <div className={styles.section}>
-                <h3>Overview:</h3>
+                <h3>{t("OVERVIEW")}:</h3>
                 <p>{v.overview}</p>
               </div>
               <div className={styles.section}>
-                <h3>Technologies Used:</h3>
+                <h3>{t("TECH_STACK")}:</h3>
                 <ul className={styles.techDetails}>
                   <li>
-                    <span>Frontend:</span>
+                    <span>{t("FRONTEND")}:</span>
                     {v.front}
                   </li>
                   <li>
-                    <span>Hosting:</span>
+                    <span>{t("HOSTING")}:</span>
                     {v.hosting}
                   </li>
                   <li className={styles.alignCenter}>
-                    <span>Design:</span>
+                    <span>{t("DESIGN")}:</span>
                     {v.designLink ? (
                       <a
                         href={v.designLink}
@@ -75,12 +77,12 @@ export function Works({ data }: WorksProps): JSX.Element {
                 </ul>
               </div>
               <div className={styles.section}>
-                <h3>Challenges and Problem Solving:</h3>
+                <h3>{t("CHALLENGES")}:</h3>
                 <p>{v.challenges}</p>
               </div>
               {v.repository && (
                 <div className={styles.section}>
-                  <h3>Repository:</h3>
+                  <h3>{t("REPOSITORY")}:</h3>
                   <a
                     href={v.repository}
                     target="_blank"
@@ -92,7 +94,7 @@ export function Works({ data }: WorksProps): JSX.Element {
                 </div>
               )}
               <div className={styles.section}>
-                <h3>Link:</h3>
+                <h3>{t("LINK")}:</h3>
                 <a href={v.link} target="_blank" rel="noopener noreferrer">
                   {v.link}
                   <NewTabIcon />
