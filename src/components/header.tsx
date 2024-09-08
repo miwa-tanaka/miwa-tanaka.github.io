@@ -13,7 +13,7 @@ type HeaderProps = {};
 export default function Header({}: HeaderProps): JSX.Element {
   return (
     <header className={styles.header}>
-      <h1 className={archivo_black.className}>Miwa Tanaka</h1>
+      <h1 className={archivo_black.className}>Miwa&#39;s Projects</h1>
     </header>
   );
 }
