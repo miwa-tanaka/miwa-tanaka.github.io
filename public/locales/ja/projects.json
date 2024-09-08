@@ -1,0 +1,71 @@
+[
+  {
+    "name": "ポートフォリオページ",
+    "overview": "ポートフォリオサイトへようこそ！このサイトは、ソフトウェア開発者兼デザイナーとしての私の歩みと実績をデジタルで表現したものです。これまでの経験、スキル、そして情熱を注いできたプロジェクトが集約された場となっています。このサイトは単なる作品集としてだけでなく、テック業界における自分の継続的な学びと成長の証でもあります。シンプルで使いやすいデザインにこだわり、私のキャリアと技術を、新たなつながりや挑戦へと広げるために作成しました。",
+    "link": "https://miwa-tanaka.com/",
+    "image": "/works/portfolio.jpg",
+    "front": "Next.js, TypeScript, Sass",
+    "hosting": "AWS (S3, Route53, CloudFront)",
+    "design": "自分",
+    "challenges": "AWSの多様なサービスを活用して、安全でスケーラブルなウェブサイトを展開するのは、非常に学ぶことが多かったです。セキュリティ対策として、IAMロールやポリシーを活用し、サイトの保護に努めました。また、スケーラビリティのためにCloudFrontを設定し、世界中でコンテンツを効率的に配信できるようにし、低遅延と高い稼働率を確保しました。さらに、アクセシビリティにも配慮し、誰もが使いやすいデザインを実現することを心がけました。"
+  },
+  {
+    "name": "お問い合わせフォーム",
+    "overview": "このプロジェクトは、練習用のお問い合わせフォームとして作成されたもので、アクセシビリティと国際化（i18n）に重点を置いています。スクリーンリーダーやキーボード操作に対応し、障害を持った方や高齢者でも簡単に利用できるように設計されています。また、英語と日本語の2言語に対応しており、様々なユーザーに適応したフォームです。シンプルで使いやすいデザインにより、誰でも直感的に操作できるよう工夫されています。",
+    "link": "https://miwa-tanaka.github.io/contact-form/",
+    "repository": "https://github.com/miwa-tanaka/contact-form",
+    "image": "/works/a11y-contact-form.jpg",
+    "front": "Next.js, TypeScript, Sass",
+    "hosting": "Github pages",
+    "design": "自分",
+    "challenges": "このプロジェクトでは、アクセシビリティ対応においていくつかの課題に直面しました。まず、実際にキーボード操作やスクリーンリーダーを使用しながら、フォームの利用に支障がないか何度もテストを行い、必要に応じて修正を重ねました。また、様々な企業が公開しているアクセシビリティのガイドラインやチェックリストを参考にし、基準を満たすよう細心の注意を払いました。さらに、ダークテーマやライトテーマにおける色のコントラストや見え方にもこだわり、視覚的に快適で誰にとっても使いやすいデザインを目指しました。"
+  },
+  {
+    "name": "audiophileのeコマースサイト",
+    "overview": "このプロジェクトは、Frontend Mentorのデザインチャレンジからインスピレーションを受けて、オーディオ愛好家に向けた没入感があり、情報豊かでインタラクティブな体験を提供することを目指しました。GatsbyというReactベースのオープンソースフレームワークを活用し、スピーディーでSEOに強く、視覚的にも魅力的なサイトを構築し、ヘッドフォンからスピーカーまでのプレミアムなオーディオ製品を紹介しています。",
+    "link": "https://miwa-tanaka.github.io/audiophile/",
+    "repository": "https://github.com/miwa-tanaka/audiophile",
+    "image": "/works/audiophile.jpg",
+    "front": "Gatsby",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx",
+    "challenges": "Frontend Mentorのデザインを、完全にレスポンシブ対応にすることがこのプロジェクトでは非常に重要でした。CSSのFlexboxを使って、画面サイズに応じて柔軟にレイアウトが変わるよう工夫し、スマートフォンからデスクトップまで、どのデバイスでも最適な表示体験ができるようにしました。これにより、ユーザーがどんなデバイスからアクセスしても、快適で一貫性のあるデザインを楽しめるようにしています。"
+  },
+  {
+    "name": "惑星の情報サイト",
+    "overview": "『The Planets』は、Frontend Mentorのチャレンジからインスピレーションを受けたウェブプロジェクトで、太陽系に存在する惑星に焦点を当てたインタラクティブで学びのある体験を提供することを目指しました。このプロジェクトでは、動的なデータを活用したユーザーインターフェースを構築する過程で、ウェブ開発スキルを活かしつつ、デザインを最大限に活用しました。Gatsbyの効率的な静的サイト生成機能や、GraphQLを使ったシームレスなデータ管理を活用し、各惑星の特徴や歴史、興味深い事実をユーザーに詳細に提供しています。",
+    "link": "https://miwa-tanaka.github.io/the-planets/",
+    "repository": "https://github.com/miwa-tanaka/the-planets/",
+    "image": "/works/theplanets.jpg",
+    "front": "Gatsby, GraphQL",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f",
+    "challenges": "Gatsbyの静的サイト生成を活用しながらインタラクティブな体験を作り上げることは新たな挑戦でした。Reactの状態管理とGraphQLを使用し、ユーザー操作に応じて変化する動的なUIを構築しました。このアプローチにより、静的サイトのパフォーマンスを維持しながら、ユーザーの操作に反応するインターフェースを実現することができました。結果として、高速でありながらも柔軟な体験を提供するウェブサイトが完成しました。"
+  },
+  {
+    "name": "ポモドーロタイマー",
+    "overview": "この『Pomodoro』プロジェクトは、作業を25分のインターバルに区切り、その合間に短い休憩を挟むポモドーロ・テクニックを活用した生産性向上を目的としたウェブアプリケーションです。Frontend Mentorのデザインを元に作成され、ユーザーが効率的に作業セッションと休憩を管理できるよう、シンプルでインタラクティブなタイマー機能を提供しています。Reactのエコシステムを活かし、カスタマイズ可能なタイマー設定や色・フォントの調整機能を備えており、モダンでレスポンシブなユーザーインターフェースは、どのデバイスでも快適に利用できるよう設計されています。",
+    "link": "https://miwa-tanaka.github.io/pomodoro/",
+    "repository": "https://github.com/miwa-tanaka/pomodoro",
+    "image": "/works/pomodoro.jpg",
+    "front": "React",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/pomodoro-app-KBFnycJ6G",
+    "challenges": "ポモドーロタイマーの基本機能である開始、一時停止、リセットに加えて、異なるインターバルのカスタム設定を扱うことは、正確な状態管理が求められたため、かなりの課題でした。これに対して、ReactのuseStateとuseEffectフックを使用して、タイマーの状態とインターバルを効果的に管理しました。この方法により、リアルタイムでUIを更新し、作業時間や休憩時間を自由にカスタマイズできる信頼性の高いタイマーを実現しました。"
+  },
+  {
+    "name": "Fyloダークテーマのランディングページ",
+    "overview": "このプロジェクトは、架空のクラウドストレージサービス「Fylo」のランディングページを作成したもので、ダークテーマを基調にユーザーフレンドリーなインターフェースを実現しています。HTML5、CSS3、JavaScriptを使用して構築され、レスポンシブデザインやインタラクティブな要素を組み込み、視覚的な魅力と使いやすさを両立させました。また、GitHub Pagesを活用してデプロイされており、誰でも簡単にアクセスできるようになっています。",
+    "link": "https://miwa-tanaka.github.io/fylo-lp/",
+    "repository": "https://github.com/miwa-tanaka/fylo-lp/",
+    "image": "/works/fylo.jpg",
+    "front": "HTML, CSS, JavaScript",
+    "hosting": "Github pages",
+    "design": "by Frontend Mentor",
+    "designLink": "https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd",
+    "challenges": "このプロジェクトでは、GitHub Pagesに適した設定を行うことに苦労しましたが、最終的には静的サイトとして正しく動作するよう調整しました。特に、バニラJavaScriptを使用してインタラクティブな要素を実装する過程で、シンプルなコードで機能を実現する難しさを再認識し、多くの学びがありました。デプロイやホスティングの課題を乗り越えながら、より効率的で管理しやすい構成に仕上げた点も重要な経験となりました。"
+  }
+]
